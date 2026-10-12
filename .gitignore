@@ -1,42 +1,35 @@
-# Node.js
-node_modules/
-npm-debug.log*
-package-lock.json
-yarn.lock
+# Eclipse
+.settings/
+.classpath
+.project
+.metadata/
 
-# Environment
-.env
-.env.local
-
-# Build
-dist/
-build/
-out/
+# Maven Build Output
 target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
 
-# IDE
-.vscode/
-.idea/
-*.swp
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+logs/
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Logs
-logs/
-*.log
+# IDE
+.idea/
+.vscode/
+*.iml
 
-# Java/Maven
-*.class
-*.jar
-*.war
-
-# Python
-__pycache__/
-venv/
-
-# K6 / Test Results
-*.jtl
-k6-report*.html
-diagnostic-report*.json
+# Environment
+.env
+.env.local
