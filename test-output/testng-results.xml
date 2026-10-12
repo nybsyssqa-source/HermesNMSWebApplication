@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-12T16:12:38 BDT" name="Default suite" finished-at="2026-10-12T16:13:44 BDT" duration-ms="66008">
+  <suite started-at="2026-10-12T16:20:18 BDT" name="Default suite" finished-at="2026-10-12T16:21:31 BDT" duration-ms="72669">
     <groups>
     </groups>
-    <test started-at="2026-10-12T16:12:38 BDT" name="Default test" finished-at="2026-10-12T16:13:44 BDT" duration-ms="66008">
+    <test started-at="2026-10-12T16:20:18 BDT" name="Default test" finished-at="2026-10-12T16:21:31 BDT" duration-ms="72669">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="init()[pri:0, instance:tests.LoginTest@65fb9ffc]" started-at="2026-10-12T16:12:38 BDT" name="init" finished-at="2026-10-12T16:12:38 BDT" duration-ms="716" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:tests.LoginTest@65fb9ffc]" started-at="2026-10-12T16:20:18 BDT" name="init" finished-at="2026-10-12T16:20:19 BDT" duration-ms="661" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="testLoginPageLoads()[pri:1, instance:tests.LoginTest@65fb9ffc]" started-at="2026-10-12T16:12:38 BDT" name="testLoginPageLoads" description="Verify login page loads" finished-at="2026-10-12T16:12:48 BDT" duration-ms="10020" status="PASS">
+        <test-method signature="testLoginPageLoads()[pri:1, instance:tests.LoginTest@65fb9ffc]" started-at="2026-10-12T16:20:19 BDT" name="testLoginPageLoads" description="Verify login page loads" finished-at="2026-10-12T16:20:29 BDT" duration-ms="10029" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginPageLoads -->
-        <test-method is-config="true" signature="cleanup()[pri:0, instance:tests.LoginTest@65fb9ffc]" started-at="2026-10-12T16:12:48 BDT" name="cleanup" finished-at="2026-10-12T16:12:48 BDT" duration-ms="70" status="PASS">
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:tests.LoginTest@65fb9ffc]" started-at="2026-10-12T16:20:29 BDT" name="cleanup" finished-at="2026-10-12T16:20:29 BDT" duration-ms="80" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanup -->
-        <test-method is-config="true" signature="init()[pri:0, instance:tests.LoginTest@65fb9ffc]" started-at="2026-10-12T16:12:48 BDT" name="init" finished-at="2026-10-12T16:12:49 BDT" duration-ms="301" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:tests.LoginTest@65fb9ffc]" started-at="2026-10-12T16:20:29 BDT" name="init" finished-at="2026-10-12T16:20:29 BDT" duration-ms="302" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="testFullLoginFlow()[pri:2, instance:tests.LoginTest@65fb9ffc]" started-at="2026-10-12T16:12:49 BDT" name="testFullLoginFlow" description="Verify full login flow" finished-at="2026-10-12T16:13:43 BDT" duration-ms="54795" status="PASS">
+        <test-method signature="testFullLoginFlow()[pri:2, instance:tests.LoginTest@65fb9ffc]" started-at="2026-10-12T16:20:29 BDT" name="testFullLoginFlow" description="Verify full login flow" finished-at="2026-10-12T16:21:31 BDT" duration-ms="61475" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFullLoginFlow -->
-        <test-method is-config="true" signature="cleanup()[pri:0, instance:tests.LoginTest@65fb9ffc]" started-at="2026-10-12T16:13:43 BDT" name="cleanup" finished-at="2026-10-12T16:13:44 BDT" duration-ms="86" status="PASS">
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:tests.LoginTest@65fb9ffc]" started-at="2026-10-12T16:21:31 BDT" name="cleanup" finished-at="2026-10-12T16:21:31 BDT" duration-ms="96" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanup -->

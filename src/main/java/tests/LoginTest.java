@@ -131,6 +131,7 @@ public class LoginTest extends Base {
             System.out.println("⚠️ Dashboard verification inconclusive");
         }
     }
+    
 
     @AfterMethod
     public void cleanup() {
