@@ -25,7 +25,7 @@ if (System.getProperty("headless") != null) {
     options.addArguments("--window-size=1920,1080");
 }
 
-WebDriver driver = new ChromeDriver(options);
+//WebDriver driver = new ChromeDriver(options);
 
         ChromeDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
