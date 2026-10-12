@@ -1,7 +1,7 @@
 package Base;
 
 import java.time.Duration;
-
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -13,7 +13,19 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Base {
 
 	public static void main(String[] args) throws InterruptedException {
+
+		ChromeOptions options = new ChromeOptions();
 		WebDriverManager.chromedriver().setup();
+		// GitHub Actions-এ headless mode
+if (System.getProperty("headless") != null) {
+    options.addArguments("--headless=new");
+    options.addArguments("--no-sandbox");
+    options.addArguments("--disable-dev-shm-usage");
+    options.addArguments("--disable-gpu");
+    options.addArguments("--window-size=1920,1080");
+}
+
+WebDriver driver = new ChromeDriver(options);
 
         ChromeDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
