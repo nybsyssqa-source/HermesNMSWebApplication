@@ -1,0 +1,42 @@
+# Node.js
+node_modules/
+npm-debug.log*
+package-lock.json
+yarn.lock
+
+# Environment
+.env
+.env.local
+
+# Build
+dist/
+build/
+out/
+target/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Java/Maven
+*.class
+*.jar
+*.war
+
+# Python
+__pycache__/
+venv/
+
+# K6 / Test Results
+*.jtl
+k6-report*.html
+diagnostic-report*.json
